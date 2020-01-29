@@ -29,7 +29,7 @@ export default function Main() {
 	}
 
 	return (
-		<Container>
+		<Container className={`${repo.length > 0 ? 'pb-70' : ''}`}>
 			<form onSubmit={handleSubmit}>
 				<img src={logo} alt="Github" />
 				<input
@@ -43,7 +43,6 @@ export default function Main() {
 					<FaPlus color="#FFF" size={14} />
 				</button>
 			</form>
-
 			<ul>
 				{repo.map((repo) => (
 					<li key={repo._id}>
