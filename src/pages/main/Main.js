@@ -24,6 +24,8 @@ export default function Main() {
 			...repo,
 			{ name, description, avatar_url, html_url, _id: repo.length }
 		]);
+
+		setNewRepo('');
 	}
 
 	return (

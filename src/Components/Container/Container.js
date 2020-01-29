@@ -6,7 +6,7 @@ const Container = styled.div`
     margin: 80px auto;
     background-color: #fff;
     border-radius: 4px;
-    padding-bottom:50px;
+    padding-bottom:70px;
 `;
 
 export default Container;
