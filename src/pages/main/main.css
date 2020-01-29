@@ -85,6 +85,16 @@ ul li strong {
     color: rgb(48, 48, 48);
 }
 
+ul li button {
+	background-color:#FFF;
+	border:0;
+	margin-left: 70px;
+	cursor: pointer;
+	color:#7159c1;
+	font-weight: bold;
+	font-size: 16px;
+}
+
 .pb-30 {
 	padding-bottom: 30px;
 }

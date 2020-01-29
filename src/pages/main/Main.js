@@ -57,6 +57,13 @@ export default function Main() {
 		});
 	}
 
+	function handleRemove(indice) {
+		repo.splice(indice, 1);
+		if (repo.length > 0) {
+			setRepo([...repo]);
+		} else setRepo('');
+	}
+
 	return (
 		<main>
 			<ToastContainer />
@@ -75,14 +82,19 @@ export default function Main() {
 					</button>
 				</form>
 				<ul>
-					{repo.map((repo) => (
-						<li key={repo._id}>
-							<img src={repo.avatar_url} alt={repo.name} />
-							<strong>{repo.name}</strong>
-							<p>{repo.description}</p>
-							<a href={repo.html_url}>Link do Projeto</a>
-						</li>
-					))}
+					{repo.length > 0
+						&& repo.map((rep) => (
+								<li key={rep._id}>
+									<img src={rep.avatar_url} alt={rep.name} />
+									<strong>{rep.name}</strong>
+									<p>{rep.description}</p>
+									<a href={rep.html_url}>Link do Projeto</a>
+									<button onClick={(e) => handleRemove(repo.indexOf(rep))}>
+										Excluir
+									</button>
+								</li>
+						  ))
+						}
 				</ul>
 			</Container>
 		</main>
