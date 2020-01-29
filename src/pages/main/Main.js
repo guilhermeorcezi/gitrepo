@@ -36,7 +36,8 @@ export default function Main() {
 					type="text"
 					placeholder="Adicionar repositório"
 					value={newRepo}
-					onChange={(e) => setNewRepo(...newRepo, e.target.value)}
+					required
+					onChange={(e) => setNewRepo(e.target.value)}
 				/>
 				<button>
 					<FaPlus color="#FFF" size={14} />
