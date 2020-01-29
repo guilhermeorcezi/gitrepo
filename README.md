@@ -24,6 +24,6 @@ yarn install
 yarn start
 ```
 
-## Licença
+## License
 
-This project is licenced by MIT License - Go to the [licençe page](https://opensource.org/licenses/MIT) to see more details.
+This project is licensed by MIT License - Go to the [licençe page](https://opensource.org/licenses/MIT) to see more details.
