@@ -4,7 +4,7 @@
 GitRepo
 </h1>
 
-<p align="center"> A React application to show github repositories
+<p align="center"> A Tic Tac Toe Game with Neomorphism style
 
 ## Features
 To create that web application was used:
@@ -13,7 +13,7 @@ To create that web application was used:
 
 ## Project
 
-A simple application to show informations about a Github repository through the Github's API.
+A simple tic-tac-toe game created with React to practice concepts of neomorphism style.
 
 ## Getting started
 
@@ -23,6 +23,13 @@ Follow the steps below to start the application:
 yarn install
 yarn start
 ```
+
+## How to contribute
+- First leave a ⭐!
+- Fork the repositories in production as they are updated: <a href="https://github.com/guilhermeorcezi/todolist"> MonoRepo;</a>
+- Create a branch with your feature: `git checkout -b my-feature`;
+- Commit your changes: `git commit -m 'feat: My new feature'`;
+- Push to your branch: `git push origin my-feature`.
 
 ## License
 
