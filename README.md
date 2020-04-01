@@ -4,7 +4,7 @@
 GitRepo
 </h1>
 
-<p align="center"> A Tic Tac Toe Game with Neomorphism style
+<p align="center"> A React application to show github repositories 
 
 ## Features
 To create that web application was used:
